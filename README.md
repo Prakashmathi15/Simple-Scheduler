@@ -23,7 +23,7 @@ CORS: Fully configured to work with the React frontend on localhost:3000.
 Prerequisite: Python 3.10+
 
 Create Virtual Environment:
-``python
+```
 python -m venv venv
 ```
 
@@ -44,7 +44,9 @@ uvicorn main:app --reload
 ```
 
 The server will be live at
-```http://127.0.0.1:8000.```
+```
+http://127.0.0.1:8000.
+```
 
 Test the API
 
