@@ -34,15 +34,11 @@ python -m venv venv
 
 Activate Environment:
 
-Windows: .\venv\Scripts\Activate
-
-Mac/Linux: source venv/bin/activate
-
-Install Dependencies:
+Windows:  
 ```
-pip install -r requirements.txt
-```
+.\venv\Scripts\Activate
 
+```
 Run the Server:
 ```
 uvicorn main:app --reload
