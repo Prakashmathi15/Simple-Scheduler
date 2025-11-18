@@ -20,6 +20,11 @@ CORS: Fully configured to work with the React frontend on localhost:3000.
 
 # How to Run
 
+
+
+Run Both Servers: 
+Have two terminals open Run uvicorn main:app --reload in one. Run npm start in the other.
+
 Prerequisite: Python 3.10+
 
 Create Virtual Environment:
